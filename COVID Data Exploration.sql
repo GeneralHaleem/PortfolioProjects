@@ -139,6 +139,7 @@ FROM
 WHERE
     continent IS NOT NULL
 ORDER BY date;
+
 #Life Expentancy
 SELECT 
     iso_code, location, population, life_expectancy
